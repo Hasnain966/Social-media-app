@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav-left">
+            <h2>SocialSite</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i></a></li>
+                <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="hamburger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-right">
+           <!-- Search Section -->
+<div class="search-section">
+    <input type="text" id="search-input" placeholder="Search by name...">
+    <button id="search-button">  <i class="fas fa-search"></i></button>
+</div>
+
+
+<!-- Existing Post Sections... -->
+
+            <div class="user-icon-image">
+                <img src="user-profile.jpg" alt="User">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <!-- <div class="left-links">
+                <a href="#"><img src="friends-icon.png" alt="Friends Icon">Friends</a>
+                <a href="#"><img src="groups-icon.png" alt="Groups Icon">Groups</a>
+                <a href="#"><img src="marketplace-icon.png" alt="Marketplace Icon">Marketplace</a>
+                <a href="#"><img src="watch-icon.png" alt="Watch Icon">Watch</a>
+                <a href="#"><img src="memories-icon.png" alt="Memories Icon">Memories</a>
+                <a href="#"><img src="saved-icon.png" alt="Saved Icon">Saved</a>
+                <a href="#"><img src="events-icon.png" alt="Events Icon">Events</a>
+            </div> -->
+            <div class="left-hand-links left-links">
+                <a href="#link1"><img src="friends-icon.png" alt="Friends Icon">Friends </a>
+                <a href="#link2"><img src="groups-icon.png" alt="Groups Icon">Groups</a>
+                <a href="#link3"><img src="marketplace-icon.png" alt="Marketplace Icon">Marketplace</a>
+                <a href="#link4"><img src="watch-icon.png" alt="Watch Icon">Watch</a>
+                <a href="#link5"><img src="memories-icon.png" alt="Memories Icon">Memories</a>
+                <a href="#link6">><img src="saved-icon.png" alt="Saved Icon">Saved</a>
+           
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="group1.png" alt="Group">Web An Mobile App</a>
+                <a href="#"><img src="group2.png" alt="Group">Web Design</a>
+                <a href="#"><img src="group3.png" alt="Group">Backend Developer</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="main-content containerr">
+            <!-- Post Section -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="./umar.PNG" alt="Profile Picture" class="profile-pic">
+                    <h4 class="post-user-name"><u>Umar</u></h4>
+                </div>
+                <img src="./umarPost.jpeg" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                    <button class="comment-btn">Comment</button>
+                    <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                </div>
+                <!-- Comment Section -->
+                <div class="comment-section" style="display: none;">
+                    <input type="text" placeholder="Write a comment..." class="comment-input">
+                    <button class="submit-comment">Submit</button>
+                </div>
+            </div>
+
+                   <!-- Post Section -->
+                   <div class="post">
+                    <div class="post-header">
+                        <img src="./sameer.jpeg" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u>Sameer</u></h4>
+                    </div>
+                    <img src="./smaeer.jpg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+                   <!-- Post Section -->
+                   <div class="post">
+                    <div class="post-header">
+                        <img src="./habib.jpeg" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u>Habib</u></h4>
+                    </div>
+                    <img src="./habibPost.jpg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+                
+                   <!-- Post Section -->
+                   <div class="post">
+                    <div class="post-header">
+                        <img src="./ayan.jpeg" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u>Ayan</u></h4>
+                    </div>
+                    <img src="./ayanPost.jpeg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+
+                 <!-- Post Section -->
+                 <div class="post">
+                    <div class="post-header">
+                        <img src="./qadir.jpeg" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u >Abdul Qadir</u></h4>
+                    </div>
+                    <img src="./qadirPost.jpg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="./bilal.jpeg" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u >Bilal</u></h4>
+                    </div>
+                    <img src="./bialPost.jpeg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="./sir-Sufiyan.PNG" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u >Inno Sufiyan</u></h4>
+                    </div>
+                    <img src="./sir-Sufiyan.PNG" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                     <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="./rajTushal.PNG" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u >Raj Tushal</u></h4>
+                    </div>
+                    <img src="./rajTushal.PNG" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+                
+                <div class="post">
+                    <div class="post-header">
+                        <img src="./rashid.PNG" alt="Profile Picture" class="profile-pic">
+                        <h4 class="post-user-name"><u >Rashid Khan</u></h4>
+                    </div>
+                    <img src="./rashidPost.jpg" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button class="comment-btn">Comment</button>
+                        <button class="share-btn"><img src="./share.png" alt="" class="share-btn"></button>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comment-section" style="display: none;">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
